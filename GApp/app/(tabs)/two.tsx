@@ -63,7 +63,7 @@ export default function TabTwoScreen() {
         <Picker
           style={{ color: colorScheme == "light" ? "white" : "black", width: 200, backgroundColor: colorScheme == "light" ? "#474747" : "white" }}
           selectedValue={day}
-          onValueChange={(itemValue, itemIndex) => setDay(itemValue)}
+          onValueChange={(itemValue, itemIndex) => setSession(itemValue)}
         >
           <Picker.Item label="1. Oturum" value="1" />
           <Picker.Item label="2. Oturum" value="2" />
